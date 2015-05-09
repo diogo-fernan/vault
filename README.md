@@ -6,7 +6,7 @@
 
 # Dependencies and Usage
 
-*vault* was developed with a few free implementations of cryptographic algorithms, namely [RSA's MD5](people.csail.mit.edu/rivest/Md5.c) and [Fabrice Bellard's AES](https://github.com/avikivity/qemu/blob/master/aes.c). It stores all the data in a local [SQLite](http://www.sqlite.org/) database using the C amalgamation software. The script in `db/init.sql` is required to be run in `sqlite` as follows in order to create the database:
+*vault* was developed with a few free implementations of cryptographic algorithms, namely [RSA's MD5](people.csail.mit.edu/rivest/Md5.c) and [Fabrice Bellard's AES](https://github.com/avikivity/qemu/blob/master/aes.c). It stores all the data in a local [SQLite](http://www.sqlite.org/) database using the C amalgamation software. The script in `db/init.sql` is required to be run in `sqlite3` as follows in order to create the database:
 
 * `sqlite3 vault.db`;
 * `sqlite> .read init.sql`.
