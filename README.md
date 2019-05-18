@@ -12,3 +12,7 @@
 * `sqlite> .read init.sql`.
 
 A `Makefile` is provided for compilation and linkage purposes, which creates object files at `src/obj` and writes the binary to `bin/vault`. This can be achieved by issuing `make clean; make` at a command line whose current working directory is `src/`. The help message included in the software enumerates the supported commands and options.
+
+# Author
+
+[@dfernan__](https://twitter.com/dfernan__)
